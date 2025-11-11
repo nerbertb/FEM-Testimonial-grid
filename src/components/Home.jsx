@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="cointainer max-w-[375px] my-[73px] mx-[35px] flex flex-col bg-[#F6F5F6]">
+    <div className="cointainer max-w-[375px] py-[73px] px-[35px] flex flex-col bg-[#F6F5F6]">
       <div className="grid grid-cols-1 gap-8">
         {/* DANIEL */}
         <section className="flex flex-col gap-4 bg-[#733FC8] p-8 rounded-lg">
