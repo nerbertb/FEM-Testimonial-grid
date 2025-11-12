@@ -21,7 +21,7 @@ function Home() {
               </h4>
               
             </div>
-            <div className="hidden sm:flex sm:absolute z-0 left-[451px] top-[74px]">
+            <div className="hidden sm:flex sm:absolute z-0 left-[26rem]">
                 <img
                   src="./public/bg-pattern-quotation.svg"
                   alt=""
@@ -36,7 +36,7 @@ function Home() {
             got every penny’s worth.
           </div>
 
-          <div className="text-[13px]/[140%] text-[#EDE4FF] barlow-semi-condensed-medium sm:max-w-[583px] sm:grid sm:col-span-2">
+          <div className="text-[13px]/[140%] text-[#EDE4FF] barlow-semi-condensed-medium ">
             “ I was an EMT for many years before I joined the bootcamp. I’ve
             been looking to make a transition and have heard some people who had
             an amazing experience here. I signed up for the free intro course
