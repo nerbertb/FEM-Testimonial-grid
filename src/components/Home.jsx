@@ -1,9 +1,9 @@
 function Home() {
   return (
-    <div className="cointainer max-w-[375px] py-[73px] px-[35px] flex flex-col bg-[#F6F5F6]">
-      <div className="grid grid-cols-1 gap-8">
+    <div className="cointainer min-w-[375px] py-[73px] px-[35px] bg-[#F6F5F6] sm:min-w-[647px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {/* DANIEL */}
-        <section className="flex flex-col gap-4 bg-[#733FC8] p-8 rounded-lg">
+        <section className="flex flex-col gap-4 bg-[#733FC8] p-8 rounded-lg sm:grid sm:col-span-2 sm:grid-flow-row">
           <div className="flex gap-[17px] items-center">
             <div>
               <img
@@ -19,15 +19,24 @@ function Home() {
               <h4 className="text-[11px]/[110%] text-[#EDE4FF] barlow-semi-condensed-medium">
                 Verified Graduate
               </h4>
+              
             </div>
+            <div className="hidden sm:flex sm:absolute z-0 left-[451px] top-[74px]">
+                <img
+                  src="./public/bg-pattern-quotation.svg"
+                  alt=""
+                  className=""
+                />
+              </div>
           </div>
-          <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold max-w-[241px]">
+
+          <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold max-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2 sm:z-1">
             I received a job offer mid-course, and the subjects I learned were
             current, if not more so, in the company I joined. I honestly feel I
             got every penny’s worth.
           </div>
 
-          <div className="text-[13px]/[140%] text-[#EDE4FF] barlow-semi-condensed-medium">
+          <div className="text-[13px]/[140%] text-[#EDE4FF] barlow-semi-condensed-medium sm:max-w-[583px] sm:grid sm:col-span-2">
             “ I was an EMT for many years before I joined the bootcamp. I’ve
             been looking to make a transition and have heard some people who had
             an amazing experience here. I signed up for the free intro course
@@ -93,7 +102,7 @@ function Home() {
           </div>
         </section>
         {/* PATRICK */}
-        <section className="flex flex-col gap-4 bg-[#19202D] p-8 rounded-lg">
+        <section className="flex flex-col gap-4 bg-[#19202D] p-8 rounded-lg sm:grid sm:col-span-2">
           <div className="flex gap-[17px] items-center">
             <div>
               <img
@@ -111,7 +120,7 @@ function Home() {
               </h4>
             </div>
           </div>
-          <div className="text-xl/[120%] text-[#CFCFCF] barlow-semi-condensed-semibold max-w-[241px]">
+          <div className="text-xl/[120%] text-[#CFCFCF] barlow-semi-condensed-semibold max-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2">
             Awesome teaching support from TAs who did the bootcamp themselves.
             Getting guidance from them and learning from their experiences was
             easy.
@@ -127,7 +136,7 @@ function Home() {
         </section>
 
         {/* KIRA */}
-        <section className="flex flex-col gap-4 bg-white p-8 rounded-lg">
+        <section className="flex flex-col gap-4 bg-white p-8 rounded-lg sm:grid sm:col-span-2">
           <div className="flex gap-[17px] items-center">
             <div>
               <img
