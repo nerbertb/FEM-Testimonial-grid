@@ -1,7 +1,7 @@
 function Home() {
   return (
-    <div className="cointainer min-w-[375px] py-[73px] px-[35px] bg-[#F6F5F6] sm:min-w-[647px]">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <div className="cointainer min-w-[375px] py-[73px] px-[35px] lg:px-[165px] lg:py-[229px] bg-[#F6F5F6] sm:min-w-[647px] lg:h-full lg:min-w-[1114px] lg:flex lg:justify-center lg:items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* DANIEL */}
         <section className="flex flex-col gap-4 bg-[#733FC8] p-8 rounded-lg sm:grid sm:col-span-2 sm:grid-flow-row">
           <div className="flex gap-[17px] items-center">
@@ -20,7 +20,7 @@ function Home() {
                 Verified Graduate
               </h4>
             </div>
-            <div className="hidden sm:flex sm:absolute z-0 left-104">
+            <div className="hidden sm:flex sm:absolute lg:left-[541px] left-104">
               <img
                 src="bg-pattern-quotation.svg"
                 alt=""
@@ -74,7 +74,7 @@ function Home() {
           </div>
         </section>
         {/* JEANETTE */}
-        <section className="flex flex-col gap-4 bg-white p-8 rounded-lg">
+        <section className="flex flex-col gap-4 bg-white p-8 rounded-lg lg:col-start-1">
           <div className="flex gap-[17px] items-center">
             <div>
               <img
@@ -135,7 +135,7 @@ function Home() {
         </section>
 
         {/* KIRA */}
-        <section className="flex flex-col gap-4 bg-white p-8 rounded-lg sm:grid sm:col-span-2">
+        <section className="flex flex-col gap-4 bg-white p-8 rounded-lg sm:grid sm:col-span-2 lg:col-start-4 lg:row-start-1 lg:row-span-2">
           <div className="flex gap-[17px] items-center">
             <div>
               <img
@@ -144,7 +144,7 @@ function Home() {
                 className="rounded-full size-7"
               />
             </div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 ">
               <h3 className="text-[13px]/[110%] text-[#48556A] barlow-semi-condensed-medium">
                 Kira Whittle
               </h3>
