@@ -19,15 +19,14 @@ function Home() {
               <h4 className="text-[11px]/[110%] text-[#EDE4FF] barlow-semi-condensed-medium">
                 Verified Graduate
               </h4>
-              
             </div>
             <div className="hidden sm:flex sm:absolute z-0 left-104">
-                <img
-                  src="./public/bg-pattern-quotation.svg"
-                  alt=""
-                  className=""
-                />
-              </div>
+              <img
+                src="./public/bg-pattern-quotation.svg"
+                alt=""
+                className=""
+              />
+            </div>
           </div>
 
           <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold min-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2 sm:z-1">
@@ -60,7 +59,7 @@ function Home() {
               <h3 className="text-[13px]/[110%] text-white barlow-semi-condensed-medium">
                 Jonathan Walters
               </h3>
-              <h4 className="text-[11px]/[110%] text-[#676D7E] barlow-semi-condensed-medium">
+              <h4 className="text-[11px]/[110%] text-[#676D7E] sm:text-[#E7EAEE] barlow-semi-condensed-medium ">
                 Verified Graduate
               </h4>
             </div>
