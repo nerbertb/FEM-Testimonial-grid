@@ -7,7 +7,7 @@ function Home() {
           <div className="flex gap-[17px] items-center">
             <div>
               <img
-                src="./public/image-daniel.jpg"
+                src="/image-daniel.jpg"
                 alt="Daniel Clifford"
                 className="rounded-full size-7 border-2 border-[#A775F1]"
               />
@@ -22,7 +22,7 @@ function Home() {
             </div>
             <div className="hidden sm:flex sm:absolute z-0 left-104">
               <img
-                src="./public/bg-pattern-quotation.svg"
+                src="bg-pattern-quotation.svg"
                 alt=""
                 className=""
               />
@@ -50,7 +50,7 @@ function Home() {
           <div className="flex gap-[17px] items-center">
             <div>
               <img
-                src="./public/image-jonathan.jpg"
+                src="image-jonathan.jpg"
                 alt="Jonathan Walters"
                 className="rounded-full size-7"
               />
@@ -78,7 +78,7 @@ function Home() {
           <div className="flex gap-[17px] items-center">
             <div>
               <img
-                src="./public/image-jeanette.jpg"
+                src="image-jeanette.jpg"
                 alt="Jeanette Harmon"
                 className="rounded-full size-7"
               />
@@ -105,7 +105,7 @@ function Home() {
           <div className="flex gap-[17px] items-center">
             <div>
               <img
-                src="./public/image-patrick.jpg"
+                src="image-patrick.jpg"
                 alt="Patrick Abrams"
                 className="rounded-full size-7 border-2 border-[#A775F1]"
               />
@@ -139,7 +139,7 @@ function Home() {
           <div className="flex gap-[17px] items-center">
             <div>
               <img
-                src="./public/image-kira.jpg"
+                src="image-kira.jpg"
                 alt="Kira Whittle"
                 className="rounded-full size-7"
               />
