@@ -20,16 +20,19 @@ function Home() {
                 Verified Graduate
               </h4>
             </div>
-            <div className="hidden sm:flex sm:absolute lg:left-[541px] left-104">
-              <img
+            <div className="hidden sm:flex ">
+              <div className='sm:absolute left-104 lg:left-33'>
+                  <img
                 src="bg-pattern-quotation.svg"
                 alt=""
                 className=""
               />
+              </div>
+              
             </div>
           </div>
 
-          <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold min-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2 sm:z-1">
+          <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold max-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2 sm:z-1">
             I received a job offer mid-course, and the subjects I learned were
             current, if not more so, in the company I joined. I honestly feel I
             got every penny’s worth.
@@ -64,7 +67,7 @@ function Home() {
               </h4>
             </div>
           </div>
-          <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold min-w-[241px]">
+          <div className="text-xl/[120%] text-white barlow-semi-condensed-semibold max-w-[241px]">
             The team was very supportive and kept me motivated
           </div>
           <div className="text-[13px]/[140%] text-[#E7EAEE] barlow-semi-condensed-medium">
@@ -92,7 +95,7 @@ function Home() {
               </h4>
             </div>
           </div>
-          <div className="text-xl/[120%] text-[#48556A] barlow-semi-condensed-semibold min-w-[241px]">
+          <div className="text-xl/[120%] text-[#48556A] barlow-semi-condensed-semibold max-w-[241px]">
             An overall wonderful and rewarding experience
           </div>
           <div className="text-[13px]/[140%] text-[#676D7E] barlow-semi-condensed-medium">
@@ -119,7 +122,7 @@ function Home() {
               </h4>
             </div>
           </div>
-          <div className="text-xl/[120%] text-[#CFCFCF] barlow-semi-condensed-semibold min-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2">
+          <div className="text-xl/[120%] text-[#CFCFCF] barlow-semi-condensed-semibold max-w-[241px] sm:max-w-[583px] sm:grid sm:col-span-2">
             Awesome teaching support from TAs who did the bootcamp themselves.
             Getting guidance from them and learning from their experiences was
             easy.
@@ -153,7 +156,7 @@ function Home() {
               </h4>
             </div>
           </div>
-          <div className="text-xl/[120%] text-[#48556A] barlow-semi-condensed-semibold min-w-[241px]">
+          <div className="text-xl/[120%] text-[#48556A] barlow-semi-condensed-semibold max-w-[241px] sm:max-w-[583px]">
             Such a life-changing experience. Highly recommended!
           </div>
           <div className="text-[13px]/[140%] text-[#676D7E] barlow-semi-condensed-medium">
